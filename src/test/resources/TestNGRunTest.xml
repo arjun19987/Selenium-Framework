@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Run Test" parallel="classes" thread-count="1">
+    <listeners>
+        <listener class-name="org.project.supportLibraries.WebDriverListener"/>
+    </listeners>
+
+    <test name="CucumberTests">
+        <parameter name="ExecutionMode" value="LOCAL"/>
+        <parameter name="Platform" value="WINDOWS"/>
+        <parameter name="BrowserName" value="CHROME"/>
+        <parameter name="ExecutionEnvironment" value="INTEGRATION"/>
+        <classes>
+            <class name="com.project.runners.RunCucumberTest"/>
+        </classes>
+    </test>
+</suite>
