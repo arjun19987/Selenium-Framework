@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+    <!-- ================= PROPERTIES ================= -->
+    <Properties>
+        <Property name="basePath">target/logs</Property>
+    </Properties>
+
+
+    <!-- ================= APPENDERS ================= -->
+    <Appenders>
+
+        <!-- File Appender -->
+        <File name="FILE"
+              fileName="${basePath}/logfile.txt"
+              append="false">
+
+            <PatternLayout pattern="[%-4p] | [%d{yyyy-MM-dd HH:mm:ss}] | [%C] - %m%n"/>
+
+        </File>
+
+
+        <!-- Console Appender -->
+        <Console name="STDOUT"
+                 target="SYSTEM_OUT">
+
+            <PatternLayout pattern="[%-4p] | [%d{yyyy-MM-dd HH:mm:ss}] | [%C] - %m%n"/>
+
+        </Console>
+
+    </Appenders>
+
+
+    <!-- ================= LOGGERS ================= -->
+    <Loggers>
+
+        <Root level="debug">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="FILE"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

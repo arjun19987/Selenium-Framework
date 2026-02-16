@@ -1,0 +1,12 @@
+[DEBUG] | [2026-02-16 12:42:05] | [org.project.supportLibraries.WebDriverListener] - BEGINNING: org.project.supportLibraries.WebDriverListener.beforeInvocation
+[DEBUG] | [2026-02-16 12:42:06] | [org.project.supportLibraries.WebDriverListener] - ENDING: org.project.supportLibraries.WebDriverListener.afterInvocation
+[DEBUG] | [2026-02-16 12:42:06] | [org.project.supportLibraries.WebDriverListener] - BEGINNING: org.project.supportLibraries.WebDriverListener.beforeInvocation
+[DEBUG] | [2026-02-16 12:42:06] | [com.project.stepdefs.CukeHooks] - org.project.hooks.CukeHooks.setUp
+[INFO] | [2026-02-16 12:42:07] | [com.project.stepdefs.CukeHooks] - Running the Scenario : Verify that user is able to log in with valid credentials
+[INFO] | [2026-02-16 12:42:07] | [com.project.stepdefs.CukeHooks] - Execution Mode : LOCAL
+[INFO] | [2026-02-16 12:42:07] | [com.project.stepdefs.CukeHooks] - Execution Environment : INTEGRATION
+[INFO] | [2026-02-16 12:42:07] | [com.project.stepdefs.CukeHooks] - Browser : CHROME
+[INFO] | [2026-02-16 12:42:07] | [com.project.stepdefs.CukeHooks] - Platform : windows
+[DEBUG] | [2026-02-16 12:42:07] | [org.project.supportLibraries.WebDriverListener] - ENDING: org.project.supportLibraries.WebDriverListener.afterInvocation
+[DEBUG] | [2026-02-16 12:42:07] | [org.project.supportLibraries.WebDriverListener] - BEGINNING: org.project.supportLibraries.WebDriverListener.beforeInvocation
+[DEBUG] | [2026-02-16 12:42:07] | [org.project.supportLibraries.WebDriverListener] - ENDING: org.project.supportLibraries.WebDriverListener.afterInvocation
